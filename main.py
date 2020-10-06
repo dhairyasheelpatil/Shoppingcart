@@ -33,7 +33,7 @@ if __name__ == "__main__":
     #Shopping Cart
 
     shoppingCart = ShoppingCart(session)
-    shoppingCart.attach(RecommendationA())
+    shoppingCart.attach(RecommendationEngineA())
     item1 = pet_cat.get_products()[0]
     item2 = home_cat.get_products()[2]
     shoppingCart.add_item(item1)
